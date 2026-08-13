@@ -1,0 +1,5 @@
+#Write a Python script that uses a while loop to print all numbers from 1 to 10, each on a new line.
+count=1
+while count<=10:
+    print(count)
+    count+=1
