@@ -3,4 +3,6 @@
 # <br><br><em><strong>Constraint:</strong> Only use for loops and range(), 
 # no string multiplication.</em>
 for i in range(1,5):
-    print("*"*i)   
+    for j in range(i):
+       print("*",end="")
+    print()   
